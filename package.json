@@ -1,0 +1,21 @@
+{
+  "name": "vyshe-game",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "5.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}
